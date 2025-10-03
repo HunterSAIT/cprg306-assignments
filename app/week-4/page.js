@@ -1,10 +1,13 @@
 "use client";
 
+import IncrementButton from './new-item';
+
 export default function Week4Page() {
   return (
     <div>
       <h1>Week 4</h1>
       <p>This is the Week 4 page.</p>
+      <IncrementButton/>
     </div>
   );
 }
