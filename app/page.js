@@ -1,10 +1,11 @@
+import Link from "next/link";
 
-import IncrementButton from "./button";
-export default function Home() {
+export default function HomePage() {
   return (
     <div>
-      <h1>Welcome to The Incrementor!!!</h1>
-      <IncrementButton/>
+      <h1>Home page</h1>
+
+      <Link href="/week-4">Week 4</Link>
     </div>
     
   );
